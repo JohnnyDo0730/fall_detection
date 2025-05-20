@@ -17,4 +17,10 @@ https://github.com/google-ai-edge/mediapipe?tab=readme-ov-file
 在做mediapipe label標記的時候要先對圖片做預處理，改成跟相機拍下來同個解析度。
 鏡頭調整成640*480。
 
+nano camera_stream_svm.py
+svm = joblib.load("./svm/svm_fall_model.pkl")
+scaler = joblib.load("./svm/svm_scaler.pkl")
+
+按ctrl+o儲存 ctrl+x離開nano編輯器
+
 scp 本地資料位置 pi名稱@ip地址:/home/pi名稱/
