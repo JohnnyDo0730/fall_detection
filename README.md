@@ -24,3 +24,7 @@ scaler = joblib.load("../svm/svm_scaler.pkl")
 按ctrl+o儲存 enter確定檔案名稱 ctrl+x離開nano編輯器
 
 scp 本地資料位置 pi名稱@ip地址:/home/pi名稱/
+
+
+
+使用時可以直接在樹梅派上執行 python camera_stream_rf.py 命令，然後通過瀏覽器訪問 http://[樹梅派IP]:5000 來查看即時跌倒偵測畫面。
