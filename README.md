@@ -21,6 +21,6 @@ nano camera_stream_svm.py
 svm = joblib.load("./svm/svm_fall_model.pkl")    
 scaler = joblib.load("./svm/svm_scaler.pkl")  
 
-按ctrl+o儲存 ctrl+x離開nano編輯器
+按ctrl+o儲存 enter確定檔案名稱 ctrl+x離開nano編輯器
 
 scp 本地資料位置 pi名稱@ip地址:/home/pi名稱/
