@@ -18,8 +18,8 @@ https://github.com/google-ai-edge/mediapipe?tab=readme-ov-file
 鏡頭調整成640*480。
 
 nano camera_stream_svm.py  
-svm = joblib.load("./svm/svm_fall_model.pkl")    
-scaler = joblib.load("./svm/svm_scaler.pkl")  
+svm = joblib.load("../svm/svm_fall_model.pkl")    
+scaler = joblib.load("../svm/svm_scaler.pkl")  
 
 按ctrl+o儲存 enter確定檔案名稱 ctrl+x離開nano編輯器
 
