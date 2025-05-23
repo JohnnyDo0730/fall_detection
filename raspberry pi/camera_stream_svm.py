@@ -12,9 +12,11 @@ camera = cv2.VideoCapture(0)
 camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
+
+
 # 載入模型與標準化器
-svm = joblib.load("svm_fall_model.pkl")
-scaler = joblib.load("svm_scaler.pkl")
+svm = joblib.load("../svm/svm_fall_model.pkl")
+scaler = joblib.load("../svm/svm_scaler.pkl")
 
 # 初始化 MediaPipe Pose
 mp_pose = mp.solutions.pose
